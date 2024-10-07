@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="077acb9e93c11210a1fabd6cebba101e" label="Projects" max_length="40" name="x_1540598_schedule_projects" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Project Number" mandatory="true" max_length="40" name="project_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Project type" mandatory="true" max_length="40" name="project_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Contract based" value="contract_based"/>
+                <element inactive_on_update="false" label="Short term" value="short_term"/>
+                <element inactive_on_update="false" label="Long term" value="long_term"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Project name" mandatory="true" max_length="40" name="project_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Website development" value="website_development"/>
+                <element inactive_on_update="false" label="Website designing" value="website_designing"/>
+                <element inactive_on_update="false" label="Website content" value="website_content"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

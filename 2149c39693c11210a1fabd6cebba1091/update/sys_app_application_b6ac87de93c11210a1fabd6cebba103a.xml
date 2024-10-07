@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>It helps project managers to schedule the tasks of company easily.</description>
+        <device_type>browser</device_type>
+        <hint>It helps project managers to schedule the tasks of company easily.</hint>
+        <name/>
+        <order/>
+        <roles>admin,user,user_admin,x_1540598_schedule.sys_admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 08:22:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6ac87de93c11210a1fabd6cebba103a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Schedule PM Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Schedule PM Tasks" source="x_1540598_schedule">2149c39693c11210a1fabd6cebba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Schedule PM Tasks">2149c39693c11210a1fabd6cebba1091</sys_scope>
+        <sys_update_name>sys_app_application_b6ac87de93c11210a1fabd6cebba103a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 08:22:10</sys_updated_on>
+        <title>Schedule PM Tasks</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
