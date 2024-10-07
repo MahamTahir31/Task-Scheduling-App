@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ea31d7d293051210a1fabd6cebba1093" sys_domain="global" table="x_1540598_schedule_tasks_data" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>task_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 10:49:28</sys_created_on>
+            <sys_id>bc6ea79e934d1210a1fabd6cebba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540598_schedule_tasks_data" sys_domain="global" view="Default view">ea31d7d293051210a1fabd6cebba1093</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 10:49:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 10:49:28</sys_created_on>
+            <sys_id>386ea79e934d1210a1fabd6cebba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540598_schedule_tasks_data" sys_domain="global" view="Default view">ea31d7d293051210a1fabd6cebba1093</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 10:49:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 10:49:28</sys_created_on>
+            <sys_id>bc6ea79e934d1210a1fabd6cebba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540598_schedule_tasks_data" sys_domain="global" view="Default view">ea31d7d293051210a1fabd6cebba1093</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 10:49:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 10:49:28</sys_created_on>
+            <sys_id>346ea79e934d1210a1fabd6cebba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540598_schedule_tasks_data" sys_domain="global" view="Default view">ea31d7d293051210a1fabd6cebba1093</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 10:49:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_time_1</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 10:49:28</sys_created_on>
+            <sys_id>b86ea79e934d1210a1fabd6cebba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540598_schedule_tasks_data" sys_domain="global" view="Default view">ea31d7d293051210a1fabd6cebba1093</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 10:49:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1540598_schedule_tasks_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 08:42:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea31d7d293051210a1fabd6cebba1093</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1540598_schedule_tasks_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Schedule PM Tasks" source="x_1540598_schedule">2149c39693c11210a1fabd6cebba1091</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Schedule PM Tasks">2149c39693c11210a1fabd6cebba1091</sys_scope>
+            <sys_update_name>sys_ui_section_ea31d7d293051210a1fabd6cebba1093</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 08:42:04</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

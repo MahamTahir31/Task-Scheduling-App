@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c5bb4f1293051210a1fabd6cebba10d9" label="Employees" max_length="40" name="x_1540598_schedule_employees" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Contact" mandatory="true" max_length="40" name="contact" type="string"/>
+        <element attributes="encode_utf8=false" label="Project name" mandatory="true" max_length="32" name="project_name" reference="x_1540598_schedule_projects" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Role" mandatory="true" max_length="40" name="role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Content writer" value="content_writer"/>
+                <element inactive_on_update="false" label="Designer" value="designer"/>
+                <element inactive_on_update="false" label="Developer" value="developer"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="project_name"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

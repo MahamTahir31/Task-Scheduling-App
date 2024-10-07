@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a29c439293051210a1fabd6cebba1058" label="Tasks Data" max_length="40" name="x_1540598_schedule_tasks_data" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+                <element inactive_on_update="false" label="In progress" value="in_progress"/>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="x_1540598_schedule_employees" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date time" mandatory="true" max_length="40" name="due_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Duration" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Task name" mandatory="true" max_length="40" name="task_name" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

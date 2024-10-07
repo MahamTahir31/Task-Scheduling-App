@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>User can only select range between 10-7-2024 to 10-7-2025.</description>
+        <field>u_glide_date_time_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Task duration range</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Define the date range
+    var startDate = new Date('2024-10-07');  // Start date 
+    var endDate = new Date('2025-10-07');    // End date 
+
+    var selectedDate = new Date(newValue);
+
+    // Check if the selected date is outside the allowed range
+    if (selectedDate < startDate || selectedDate > endDate) {
+        alert('The date must be between 10/7/2024 and 10/7/2025.');
+        g_form.setValue('u_glide_date_time_1', '');  // Clear the invalid date
+    }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 11:08:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c93fa7de934d1210a1fabd6cebba1088</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Task duration range</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Schedule PM Tasks" source="x_1540598_schedule">2149c39693c11210a1fabd6cebba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Schedule PM Tasks">2149c39693c11210a1fabd6cebba1091</sys_scope>
+        <sys_update_name>sys_script_client_c93fa7de934d1210a1fabd6cebba1088</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 11:12:15</sys_updated_on>
+        <table>x_1540598_schedule_tasks_data</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
